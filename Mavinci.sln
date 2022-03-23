@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mavinci.Front", "Mavinci.Front\Mavinci.Front.csproj", "{DA186280-7459-4B35-BFB7-ADC52F28D6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{4714428B-5A93-4B57-A54A-2B50031C9E78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cores", "Cores", "{F0C7A439-5424-497F-A6B2-0655B5C80FF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{3B38EB48-8D3E-45EB-98D6-79E25ABD6A97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EB7C33DF-F352-449E-9904-119B01ECC545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mavinci.Nuget", "Mavinci.Nuget\Mavinci.Nuget.csproj", "{88832B18-911C-425E-A2D9-E537BD39A93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Davinci.Common", "Davinci.Common\Davinci.Common.csproj", "{AC5A994B-BDDE-458D-AD6B-0C143D01A7C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA186280-7459-4B35-BFB7-ADC52F28D6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA186280-7459-4B35-BFB7-ADC52F28D6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA186280-7459-4B35-BFB7-ADC52F28D6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA186280-7459-4B35-BFB7-ADC52F28D6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88832B18-911C-425E-A2D9-E537BD39A93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88832B18-911C-425E-A2D9-E537BD39A93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88832B18-911C-425E-A2D9-E537BD39A93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88832B18-911C-425E-A2D9-E537BD39A93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5A994B-BDDE-458D-AD6B-0C143D01A7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5A994B-BDDE-458D-AD6B-0C143D01A7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5A994B-BDDE-458D-AD6B-0C143D01A7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5A994B-BDDE-458D-AD6B-0C143D01A7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA186280-7459-4B35-BFB7-ADC52F28D6FB} = {3B38EB48-8D3E-45EB-98D6-79E25ABD6A97}
+		{88832B18-911C-425E-A2D9-E537BD39A93A} = {4714428B-5A93-4B57-A54A-2B50031C9E78}
+		{AC5A994B-BDDE-458D-AD6B-0C143D01A7C8} = {4714428B-5A93-4B57-A54A-2B50031C9E78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0FF682F-2B68-4585-AE55-CFA42E33728F}
+	EndGlobalSection
+EndGlobal
